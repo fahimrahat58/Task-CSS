@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            text-align:center;
+        }
+        td,th{
+            border: 1px solid goldenrod;
+        }
+        th{
+            background-color: aqua;
+        }
+        tr:nth-child(odd){
+            background-color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Information</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Fahim</td>
+            <td>20</td>
+            <td>Bangladesh</td>
+        </tr>
+        <tr>
+            <td>Fahim</td>
+            <td>20</td>
+            <td>Bangladesh</td>
+        </tr>
+        <tr>
+            <td>Fahim</td>
+            <td>20</td>
+            <td>Bangladesh</td>
+        </tr>
+        <tr>
+            <td>Fahim</td>
+            <td>20</td>
+            <td>Bangladesh</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total student 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

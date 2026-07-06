@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+header{
+    text-align: center;
+    padding: 5px;
+}
+header p{
+    color: gray;
+}
+header h1{
+    font-size:xx-large;
+}
+.pricing-container{
+    display: flex;
+    justify-content:space-around;
+    
+    
+    }
+    h2,h3{
+        text-align: center;
+        color:white;
+    }
+    .pricing-card{
+        background-color: black;
+        padding: 20px;
+        border-radius: 10px;
+        width: 250px;
+        
+    }
+    li{
+        
+        color:white;
+        list-style: none;
+        
+        margin-bottom: 15px;
+        text-align:center;
+        
+    }
+    .button{
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 20px;
+        width: 100%;
+        border-radius: 2px;
+        box-sizing: border-box;
+    }
+    .button:hover{
+        background-color: aqua;
+        cursor: pointer;
+    }
+    .pricing-cardnew{
+        background-color: rgb(40, 62, 62);
+        width: 280px;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    
+
+    
