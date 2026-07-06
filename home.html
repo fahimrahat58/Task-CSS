@@ -4,7 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <style>
+         table{
+            border-collapse: collapse;
+            width: 80%;
+            text-align: center;
+            align-content: center;
+            margin: auto;
+        }
+        td,th{
+            border: 1px solid goldenrod;
+        }
+        th{
+            background-color: aqua;
+        }
+        tr:nth-child(odd){
+            background-color: rgb(130, 75, 214);
+        }
+        caption{
+            font-size: xx-large;
+        }
+        .container{
+            position:sticky;
+            top: 0;
+            right:0;
+            
+            text-align:center;
+
+
+            
+           margin: 20px;
+           
+            
+            
+            
+            
+        }
+        .buttons{
+           
+            background-color: aqua;
+            width: 100px;
+            height: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            
+            
+            
+            
+        }
+        
+    </style>
+    
     <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="pricecard/card.css">
+    <link rel="stylesheet" href="position/relative.css">
+    
 </head>
 <body>
     <header>
@@ -20,12 +74,166 @@
                 <li><a href="shop.html">Shop</a></li>
             </ul>
         </nav>
-        <div class="container-card">
-            <box class="div">box-1</box>
-            <box class="div">box-2</box>
-            <box class="div">box-3</box>
+       
         </div>
-        </div>
+        <br>
+        <section class="pricing-container">
+
+            <!-- Basic Plan -->
+            <article class="pricing-card">
+                <h2>Basic</h2>
+                <h3>$9/month</h3>
+
+                <ul>
+                    <li>✔1 Website</li>
+                    <li>✔10 GB Storage</li>
+                    <li>✔Email Support</li>
+                </ul>
+
+                <button class="button">Choose Plan</button>
+            </article>
+
+            <!-- Standard Plan -->
+            <article class="pricing-cardnew">
+                <h2>Standard</h2>
+                <h3>$19/month</h3>
+
+                <ul>
+                    <li>✔5 Websites</li>
+                    <li>✔50 GB Storage</li>
+                    <li>✔Priority Support</li>
+                </ul>
+
+                <button class="button">Choose Plan</button>
+            </article>
+
+            <!-- Premium Plan -->
+            <article class="pricing-card">
+                <h2>Premium</h2>
+                <h3>$39/month</h3>
+
+                <ul>
+                    <li>✔Unlimited Websites</li>
+                    <li>✔Unlimited Storage</li>
+                    <li>✔24/7 Support</li>
+                </ul>
+
+                <button class="button">Choose Plan</button>
+            </article>
+
+        </section>
     </header>
-</body>
+    <br>
+    <br>
+     <table>
+        <caption>Student Information</caption>
+        
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Fahim</td>
+            <td>20</td>
+            <td>Bangladesh</td>
+        </tr>
+        <tr>
+            <td>Fahim</td>
+            <td>20</td>
+            <td>Bangladesh</td>
+        </tr>
+        <tr>
+            <td>Fahim</td>
+            <td>20</td>
+            <td>Bangladesh</td>
+        </tr>
+        <tr>
+            <td>Fahim</td>
+            <td>20</td>
+            <td>Bangladesh</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total student 3</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+     <div class="card-container">
+  <div class="card1">
+    <h3>Basic Plan</h3>
+    <p>$9/mo</p>
+  </div>
+
+  <div class="card2">
+    
+    <h3>Standard Plan</h3>
+    <p>$12/mo</p>
+  </div>
+  <div class="card2">
+     <span class="badge">Most Popular</span>
+    <h3>Pro Plan</h3>
+    <p>$19/mo</p>
+  </div>
+</div>
+</div>
+<br>
+<br>
+ <div class="container">
+        <div class="buttons">Contact Us</div>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsa saepe aliquam eveniet distinctio aperiam ipsum vel, animi ullam aliquid veniam vero, temporibus iusto est natus delectus laborum? Ad, aliquam?</p>
+    </div>
+                                             
 </html>
